@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment-form-styles.css">
+    <title>Form Basics</title>
+</head>
+<body>
+
+    <div class="container">
+        <form action="file:///Users/johnskarbek/Desktop/TOP/intermediate-advanced-html-css/payment-form.html" method="post" class="form">
+
+            <section class="form-wrapper">
+                <h2 class="contact-info">Contact Information</h2>
+                <fieldset>
+                    <legend>Title</legend>
+                    <ul>
+                        <li id="title_1">
+                            <label for="title_1"></label>
+                                <input type="radio" name="title" value="k" id="title_1">King
+                            </label>
+                        </li>
+                        <li id="title_2">
+                            <label for="title_2"></label>
+                                <input type="radio" name="title" value="q" id="title_1">Queen
+                            </label>
+                        </li>
+                        <li id="title_3">
+                            <label for="title_3"></label>
+                                <input type="radio" name="title" value="j" id="title_1">Joker
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <p>
+                    <label for="name">
+                        <span>Name:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="text" name="name" id="username" placeholder="Your Name">
+                </p>
+                <p>
+                    <label for="mail"><span>E-mail: </span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="email" name="usermail" id="mail" placeholder="Email Address">
+                </p>
+                <p>
+                    <label for="pwd"><span>Password: </span><strong><abbr title="required">*</abbr></strong>
+                        <input type="password" name="password" id="pwd" placeholder="Your Password">
+                    </label>
+                </p>
+            </section>
+
+
+        
+        </form>
+
+            <!-- <form action="file:///Users/johnskarbek/Desktop/TOP/intermediate-advanced-html-css/payment-form.html" method="post" class="form">
+                <h1 class="form-title">Payment Form</h1>
+                <p class="form-instructions">Required fields are followed by <strong><abbr title="required">*</abbr></strong></p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                <label for="email" class="label">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email Address">
+                <label for="text-input">Message:</label>
+                <textarea id="text-input" name="user_message" placeholder="Tell me a story..."></textarea>
+
+                <button type="submit">Submit</button>
+            </form> -->
+        </section>
+    </div>
+    
+</body>
+</html>
