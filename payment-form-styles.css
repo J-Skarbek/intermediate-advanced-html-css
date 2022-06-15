@@ -94,6 +94,13 @@ p {
     padding: 2%;
 }
 
+/* @media only screen and (min-width: 1600px) {
+    .container {
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: repeat(24, 1fr);
+    }
+} */
+
 .form {
     display: flex;
     flex-direction: column;
