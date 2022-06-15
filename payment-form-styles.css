@@ -99,8 +99,8 @@ p {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: stretch;
-    grid-column: 5 / span 4;
-    grid-row: 5 / span 6;
+    grid-column: 4 / span 6;
+    grid-row: 4 / span 8;
     padding: 2%;
     background-color: #920CF9;
     border: 3px solid #fff;
